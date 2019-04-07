@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
 
 
 import requests
 
-
-# In[27]:
 
 
 latitud=43.3713
@@ -19,19 +16,9 @@ print("La latitud de A Coruña es:",latitud,"y la longitud es:",longitud,".")
 print("El sol sale a las:",(json_data["results"]["sunrise"]),"y se oculta a las:",(json_data["results"]["sunset"]),".")
 
 
-# In[ ]:
 
 
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
