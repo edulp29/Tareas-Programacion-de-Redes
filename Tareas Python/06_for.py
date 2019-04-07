@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[7]:
 
 
 Names=['Joe', 'Jack', 'Tony', 'Paul', 'George']
@@ -15,7 +14,6 @@ for element in Names:
 print(Selected)
 
 
-# In[ ]:
 
 
 

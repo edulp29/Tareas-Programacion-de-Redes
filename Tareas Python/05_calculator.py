@@ -10,6 +10,7 @@ print("1-Suma")
 print("2-Resta")
 print("3-Multiplicacion")
 print("4-Division")
+print("5-Exponencial")
 x=input("Introduzca el Numero de la operación")
 y=float(x)
 if y==1:
@@ -40,19 +41,24 @@ elif y==4:
     s2=float(b)
     resultado=s1/s2
     print("El resultado de la division es:", resultado)
+elif y==5:
+    a=input("Introduzca numero base:")
+    b=input("Introduzca el exponente:")
+    s1=float(a)
+    s2=float(b)
+    resultado=s1**s2
+    print("El resultado de la division es:", resultado)
 else:
-    print("Introduzca un numero entre 1 y 4")
-
-
-
-
-# In[ ]:
+    print("Introduzca un numero entre 1 y 5")
 
 
 
 
 
-# In[ ]:
+
+
+
+
 
 
 
